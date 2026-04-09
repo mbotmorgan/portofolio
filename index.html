@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio PKL</title>
+
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+body {
+background: #0f172a;
+color: white;
+}
+
+header {
+text-align: center;
+padding: 40px 20px;
+}
+
+header h1 {
+font-size: 32px;
+}
+
+header p {
+color: #94a3b8;
+}
+
+.container {
+max-width: 1000px;
+margin: auto;
+padding: 20px;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+gap: 20px;
+}
+
+.card {
+background: #1e293b;
+border-radius: 12px;
+overflow: hidden;
+transition: 0.3s;
+}
+
+.card:hover {
+transform: translateY(-5px);
+}
+
+.card img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+.card-content {
+padding: 15px;
+}
+
+.card-content h3 {
+margin-bottom: 8px;
+}
+
+.card-content p {
+color: #94a3b8;
+font-size: 14px;
+}
+
+footer {
+text-align: center;
+padding: 30px;
+color: #94a3b8;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>Portfolio PKL</h1>
+<p>Nama Kamu - Web Developer</p>
+</header>
+
+<div class="container">
+<div class="grid">
+
+<div class="card">
+<img src="project1.png">
+<div class="card-content">
+<h3>Project 1</h3>
+<p>Deskripsi project</p>
+</div>
+</div>
+
+<div class="card">
+<img src="project2.png">
+<div class="card-content">
+<h3>Project 2</h3>
+<p>Deskripsi project</p>
+</div>
+</div>
+
+<div class="card">
+<img src="project3.png">
+<div class="card-content">
+<h3>Project 3</h3>
+<p>Deskripsi project</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<footer>
+Portfolio PKL
+</footer>
+
+</body>
+</html>
